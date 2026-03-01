@@ -6,14 +6,13 @@ function Navbar() {
   const isActive = (path) => location.pathname === path;
   
   return (
-    <nav className="bg-white border-b border-gray-200">
+    <nav className="bg-gray-900 border-b border-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            {/* <span className="text-2xl">🔗</span> */}
-            <img src="/src/assets/logoF.png" alt="EdgeURL Logo" className="h-20 w-20" />
-            <span className="text-xl font-semibold text-gray-900">
+          <Link to="/" className="flex items-center space-x-2 group">
+            <span className="text-2xl">🔗</span>
+            <span className="text-xl font-semibold text-white group-hover:text-blue-400 transition">
               EdgeURL
             </span>
           </Link>
@@ -42,8 +41,8 @@ function NavLink({ to, active, children }) {
       to={to}
       className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
         active
-          ? 'bg-gray-100 text-gray-900'
-          : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+          ? 'bg-gray-800 text-white'
+          : 'text-gray-300 hover:bg-gray-800 hover:text-white'
       }`}
     >
       {children}
