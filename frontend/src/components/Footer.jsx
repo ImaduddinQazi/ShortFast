@@ -16,10 +16,16 @@ function Footer() {
               A production-ready URL shortener built with Node.js, React, PostgreSQL, and Redis. 
               Featuring instant redirects, QR code generation, and real-time analytics.
             </p>
-            <div className="flex space-x-4">
-              <SocialLink href="https://github.com" icon="GitHub" />
-              {/* <SocialLink href="https://linkedin.com" icon="LinkedIn" /> */}
-              {/* <SocialLink href="https://twitter.com" icon="Twitter" /> */}
+            <div className="flex items-center space-x-3">
+              <SocialLink href="https://github.com/ImaduddinQazi" icon="github-logo.png" />
+              <a
+                href="https://github.com/ImaduddinQazi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition text-sm"
+              >
+                GitHub
+              </a>
             </div>
           </div>
 
@@ -92,9 +98,13 @@ function SocialLink({ href, icon }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition"
+      className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition overflow-hidden"
     >
-      <span className="text-xs">{icon[0]}</span>
+      <img 
+        src={`/${icon}`} 
+        alt="Social Icon" 
+        className="w-6 h-6 object-contain filter invert"
+      />
     </a>
   );
 }
