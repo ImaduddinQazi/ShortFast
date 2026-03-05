@@ -1,4 +1,4 @@
-# 🔗 LinkKit - Distributed URL Shortener
+# 🔗 EdgeURL - Distributed URL Shortener
 
 A production-ready URL shortening service with Redis caching, QR code generation, and real-time analytics.
 
