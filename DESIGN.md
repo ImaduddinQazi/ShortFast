@@ -1,6 +1,8 @@
 # 1. System Overview
 distributed URL shortener designed for high traffic and low-latency redirects, featuring horizontal scalability, fault tolerance, and intelligent caching. It ensures unique short codes via Base62 encoding and includes security, analytics, and a clean API for a complete, portfolio-ready system.  The architecture prioritizes read-heavy optimization and graceful failure handling for real-world reliability.
 # 2. High-Level Architecture Diagram
+<img width="1378" height="529" alt="Architecture_diagram" src="https://github.com/user-attachments/assets/019b5b4e-31f4-4376-ad0e-e89f2bac7494" />
+
 
 # 3. Core Components (bullet points)
 
@@ -61,3 +63,6 @@ Why Redis? (Sub-millisecond reads for hot URLs)
 - Horizontal scalability
 
 Why cache-aside pattern? (Database is source of truth)
+-Database as Source of Truth
+-Simple Data Recovery
+-Resilience to Cache Failures
