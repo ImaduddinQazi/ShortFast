@@ -63,6 +63,6 @@ Why Redis? (Sub-millisecond reads for hot URLs)
 - Horizontal scalability
 
 Why cache-aside pattern? (Database is source of truth)
--Database as Source of Truth
--Simple Data Recovery
--Resilience to Cache Failures
+- Database as Source of Truth
+- Simple Data Recovery
+- Resilience to Cache Failures
