@@ -7,9 +7,9 @@ function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               {/* <span className="text-2xl">🔗</span> */}
-              <img src="/logoF.png" alt="EdgeURL Logo" className="h-20 w-20" />
+              <img src="/logoF.png" alt="ShortFast Logo" className="h-20 w-20" />
               <span className="text-xl font-semibold text-white">
-                EdgeURL
+                ShortFast
               </span>
             </div>
             <p className="text-sm text-gray-400 mb-4">
@@ -79,12 +79,12 @@ function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} EdgeURL. All rights reserved.
+            © {new Date().getFullYear()} ShortFast. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             {/* <a href="#" className="hover:text-white transition">Privacy</a>
             <a href="#" className="hover:text-white transition">Terms</a> */}
-            <a href="https://github.com/ImaduddinQazi/EdgeURL-Distributed-URL-Shortener/blob/main/README.md" className="hover:text-white transition">Documentation</a>
+            <a href="https://github.com/ImaduddinQazi/ShortFast/blob/main/README.md" className="hover:text-white transition">Documentation</a>
           </div>
         </div>
       </div>
