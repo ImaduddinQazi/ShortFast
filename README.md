@@ -4,8 +4,8 @@ A production-ready URL shortening service with Redis caching, QR code generation
 
 ## 🌐 Live Demo
 
-- **🔗 Application**: [https://url-shortener-xxxx.vercel.app](https://shortfast.vercel.app/)
-- **💚 Backend Health Check**: [https://url-shortener-api-xxxx.onrender.com/health](https://edgeurl-distributed-url-shortener.onrender.com/health)
+- **🔗 Application**: [https://shortfast-xxxx.vercel.app](https://shortfast.vercel.app/)
+- **💚 Backend Health Check**: [https://shortfast-xxxx.onrender.com/health](https://shortfast.onrender.com/health)
 
 ## ✨ Features
 
